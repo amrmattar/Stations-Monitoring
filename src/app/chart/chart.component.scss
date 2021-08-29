@@ -1,0 +1,74 @@
+.full-chart{
+    height: calc(100vh - 111px);
+}
+
+.control-section {
+    height: 370px;
+    margin-top: -100px;
+    
+
+}
+.title-chart{
+    margin-top: 4vh;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #3D5161;
+}
+.display-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.control-fluid {
+    padding: 0px !important;
+}
+
+.under-graph{
+    height: calc(100% - 275px);
+}
+.ico-text{
+    left: 0px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #3D5161;
+    span{
+        position: relative;
+        top: -1px;
+        margin-left: 8px;
+    }
+    i{
+        font-size: 1.3rem;
+        margin-left: 8px;
+    }
+}
+.text-power{
+    color: #3D5161;
+    float: right;
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.bg-warning {
+    background-color: #FF7F5C !important;
+    border-radius: 10px;
+}
+.bg-secondary {
+    background-color: #B9CDE2 !important;
+    border-radius: 10px;
+}
+
+.progress {
+    background-color: #F4DBD4;
+}
+
+.title{
+    color: #3D5161;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.view-m{
+    margin-top: 5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}

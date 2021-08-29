@@ -1,0 +1,79 @@
+<div class="full-w ">
+<div class="navbar display-row">
+    <div class="col-4 display-row ">
+        <div class="width-margin display-row">
+        <div class="col-6 display-row ">
+            <div class="rest-of-text">
+            <i class="e-icons fas fa-circle i-color"></i>
+            <i class="fas fa-gas-pump"></i>
+            <span class="big-text">2/3</span>
+            </div>
+            <div class="small-text-container">
+            <span class="small-text-1">Monitored </span>
+            <span class="small-text-2"> Stations</span>
+            </div>
+        </div>
+        
+        <div class="col-6 display-row">
+            <div class="rest-of-text">
+            <i class="e-icons fas fa-circle i-color"></i>
+            <i class="fas fa-redo"></i>
+            <span class="big-text">20s</span>
+            </div>
+            <div class="small-text-container">
+            <span class="small-text-1">Last </span>
+            <span class="small-text-2"> Update</span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="switch" >
+            <div class="quality">
+                <input id="q1" name="q" value="q1" type="radio" checked="true">
+                <label for="q1" >TODAY</label>
+            </div>
+            <div class="quality">
+                <input id="q2" name="q" value="q2" type="radio" >
+                <label for="q2">YESTERDAY</label>
+            </div>
+            <div class="quality">
+                <input id="q3" name="q" value="q3" type="radio">
+                <label for="q3">LAST WEEK</label>
+            </div>
+        </div>
+    </div>
+    <div class="col-4 display-row pr-4">
+        <div class="col-1"></div>
+        <div class="col-5">
+            <div class="e-input-group e-float-icon-left mins-m">
+                <span class="e-input-group-icon e-icons arrow-sans-right-01 i-color" (mouseup)="onMouseUp($event.target)"
+                    (mousedown)="onMouseDown($event.target)"></span>
+                <div class="e-input-in-wrap">
+                    <input class="e-input"  type="text" (focus)="focusIn($event.target)" placeholder="start date - time"
+                        (blur)="focusOut($event.target)" />
+                    <span class="e-input-group-icon e-icons BT_MonthAgenda" (mouseup)="onMouseUp($event.target)"
+                        (mousedown)="onMouseDown($event.target)"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-5 ">
+            <div class="e-input-group e-float-icon-left ">
+                <span class="e-input-group-icon e-icons fas fa-square i-color" (mouseup)="onMouseUp($event.target)"
+                    (mousedown)="onMouseDown($event.target)"></span>
+                <div class="e-input-in-wrap">
+                    <input class="e-input" type="text" (focus)="focusIn($event.target)" placeholder="End date - time"
+                        (blur)="focusOut($event.target)" />
+                    <span class="e-input-group-icon e-icons BT_MonthAgenda" (mouseup)="onMouseUp($event.target)"
+                        (mousedown)="onMouseDown($event.target)"></span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+</div>
+
+<!-- شيل col-1 -->

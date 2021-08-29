@@ -1,0 +1,329 @@
+.graph-list{
+  height: 100%;
+  padding: 1.6rem;
+.o-dash{
+  background-color: #F4DBD4 !important;
+}
+.display-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.control-fluid {
+    padding: 0px !important;
+}
+
+.upper-cards{
+  margin: 0rem 0.5rem 0.5rem 0.5rem;
+  background-color: #fff;
+  height: 130px;
+  border-radius: 20px;
+  color: #3D5161;
+  font-weight: 500;
+  p , .span{
+    position: relative;
+    top: -5px;
+  }
+  .span-cus{
+    position: relative;
+    top: -30px;
+  }
+}
+.bottom-cards{
+  margin: 0.5rem;
+  background-color: #fff;
+  height: 150px;
+  border-radius: 20px;
+  hr{
+
+    margin: auto;
+    width: 98%;
+    color: lightgray;
+  }
+}
+.swicht-container{
+  height: 50px;
+}
+.switch{
+  
+  float: right;
+  width: 25%;
+  background-color: #fff;
+  color: #707E89;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 50px;
+  margin: 0.5rem;
+}
+.quality{
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  line-height: 35px;
+  
+  label{
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Segoe UI";
+    font-style: normal;
+    transition: transform 0.4s, color 0.4s, background-color 0.4s;
+    i{
+      font-size: 1.1rem;
+      padding-right: 6px ;
+    }
+}
+  input[type="radio"]{
+    appearance: none;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    &:focus {
+      outline: 0;
+      outline-offset: 0;}
+    &:checked ~ label {
+      background-color: #FF7F5C;
+      color: #FFFFFF}
+    &:active ~ label{
+      transform: scale(1.05);}
+    }
+}
+.contain{
+  padding: 2rem;
+}
+.number{
+  font-size: 1.8rem;
+}
+.identify {
+  font-size: 1.2rem;
+  position: relative;
+    top: -3px;
+}
+.percent{
+  font-size: 0.8rem;
+  margin-left: 3px;
+  position: relative;
+    top: -10px;
+    i{
+      margin-right: 7px;
+    }
+    .spec{
+      position: relative;
+      top: -20px;
+    }
+    .g{
+      color: #00CBC0;
+    }
+    .o{
+      color: #FF7F5C;
+    }
+}
+
+.dropdown-toggle:empty::after {
+display: none;}
+
+.list{
+  color: #3D5161;
+  .menu-ico{
+    cursor: pointer;
+  }
+  .menu-ico-container{
+    float: right;
+    margin-right: 25px;
+  }
+
+.fa-circle{
+  font-size: 8px !important;
+  position: relative;
+  bottom: -3px;
+  margin-left: 14px;
+  margin-right: 4px;
+}
+.fa-gas-pump{
+  font-size: 1.25rem;
+  margin-right: 5px;
+}
+
+.i-color{
+  
+  color: #FF7F5C;
+}
+.top-wide-card{
+  line-height: 45px;
+}
+.big-text{
+  font-weight: 500;
+}
+
+.dropdown-menu-right{
+  width: 400px;
+  border-radius: 10px;
+  .drop-down-header {
+    line-height: 25px;
+      font-size: 0.9rem;
+      margin-left: 10px;
+  }
+  
+  .checkbox-container{
+    margin-left: 10px;
+    line-height: 20px;
+    input{
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+    .container {
+      line-height: 20px;
+      display: block;
+      position: relative;
+      top: 5px;
+      padding-left: 35px;
+      cursor: pointer;
+      font-size: 0.7rem;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    
+    /* Hide the browser's default checkbox */
+    .container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+    
+    /* Create a custom checkbox */
+    .checkmark {
+      position: absolute;
+      top: 3px;
+      left: 10px;
+      height: 13px;
+      width: 13px;
+      background-color: #eee;
+    }
+    
+    /* On mouse-over, add a grey background color */
+    .container:hover input ~ .checkmark {
+      background-color: #ccc;
+    }
+    
+    /* When the checkbox is checked, add a blue background */
+    .container input:checked ~ .checkmark {
+      background-color: #FF7F5C;
+      border-radius: 3px;
+    }
+    
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+    
+    /* Show the checkmark when checked */
+    .container input:checked ~ .checkmark:after {
+      display: block;
+    }
+    
+    /* Style the checkmark/indicator */
+    .container .checkmark:after {
+      left: 9px;
+      top: 5px;
+      width: 5px;
+      height: 5px;
+      border: solid white;
+      
+      border-width:  0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+    
+  
+    label{
+      position: relative;
+      top: -2px;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+}
+.bottom-wide-card{
+margin-top: 12px;
+
+font-size: 0.8rem;
+  .body-wide-card{
+
+
+  }
+
+  .left{
+    font-weight: 500;
+  }
+  .right{
+    
+  }
+}
+
+
+
+
+
+.column-chart{
+  margin-top: 10px;
+  height: 50vh;
+  width: 100%;
+}
+
+.column-chart-inner{
+  width: 100%;
+  background-color: #fff;
+  height: 360px;
+  border-radius: 20px;
+}
+
+hr {
+    margin: 0rem 0;
+   width: 98%;
+   color: rgb(184, 184, 184);
+   margin: auto;
+   margin-bottom: 5px;
+}
+
+.chart-itself{
+  width: 96%;
+  // margin: auto;
+}
+
+.chart-inner-title{
+  line-height: 50px;
+  .right{
+    margin-left: 16px;
+  }
+  .color-tab{
+    color: #FF7F5C;
+    border-bottom: 3px solid #FF7F5C;
+  }
+  span{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #707E89;
+  }
+}
+
+.list-graph-container{
+  margin-top: 1px;
+  height: calc(100% - 160px);
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+}

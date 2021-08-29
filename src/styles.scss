@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-icons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-icons/styles/bootstrap.css';
+@import '../node_modules/@syncfusion/ej2-lists/styles/material.css';
+@import "../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '~bootstrap/scss/bootstrap';
+
+
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #F4DBD4;
+    border-radius: 10px;
+    
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #FF7F5C;
+    border-radius: 20px;
+    
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #FF7F5C;
+  }

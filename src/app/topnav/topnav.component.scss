@@ -1,0 +1,134 @@
+.full-w{
+   width: 100%;
+    height: 61px;
+    background-color: #fff;
+    color: #3D5161;
+
+
+.navbar{
+    width: 95%;
+    height: 61px;
+    background-color: #fff;
+    margin: auto;
+}
+.display-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.BT_DateTime::before {
+     content: '\e423';
+ }
+.BT_MonthAgenda::before {
+  font-size: 1rem;
+     content: '\e31c';
+ }
+.fa-circle{
+    font-size: 8px !important;
+    position: relative;
+    bottom: -3px;
+    right: 3px;
+}
+
+.arrow-sans-right-01::before {
+     content: '\e859';
+ }
+.mins-m{
+  position: relative;
+  right: -25px;
+  height: 30px;
+  // width: 90%;
+}
+.e-input-group.e-float-icon-left > .e-input-group-icon, .e-float-input.e-input-group.e-float-icon-left > .e-input-group-icon, .e-input-group.e-control-wrapper.e-float-icon-left > .e-input-group-icon, .e-float-input.e-input-group.e-control-wrapper.e-float-icon-left > .e-input-group-icon {
+    font-size: 16px;
+    position: relative;
+    right: -13px;
+}
+.big-text{
+margin-left: 1px;
+font-size: 1.45rem;
+// font-weight: 500;
+}
+.small-text-1{
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 1px;
+}
+.small-text-2{
+  position: relative;
+  top: -10px;
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 1px;
+}
+.small-text-container{
+  margin-left: 5px;
+  display: inline;
+  height: 50px;
+  width: 50px;
+}
+.rest-of-text{
+  position: relative;
+  bottom: 5px;
+  line-height: 50px;
+  display: inline;
+  i{
+    margin-right: 5px !important;
+    font-size: 1.4rem;
+  }
+}
+.i-color{
+  
+  color: #FF7F5C;
+}
+.width-margin{
+  width: 80%;
+  // margin: auto;
+}
+
+.switch{
+  width: 85%;
+  background-color: #F9F5F3;
+  color: #707E89;
+  font-size: 13px;
+  border-radius: 50px;
+  margin: auto;
+  position: relative;
+  top: -3px;
+}
+.quality{
+  position: relative;
+  display: inline-block;
+  width: 33.3333%;
+  height: 100%;
+  line-height: 28px;
+  
+  label{
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Segoe UI";
+    font-style: normal;
+    transition: transform 0.4s, color 0.4s, background-color 0.4s
+}
+  input[type="radio"]{
+    appearance: none;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    &:focus {
+      outline: 0;
+      outline-offset: 0;}
+    &:checked ~ label {
+      background-color: #FF7F5C;
+      color: #FFFFFF}
+    &:active ~ label{
+      transform: scale(1.05);}
+    }
+}
+
+}

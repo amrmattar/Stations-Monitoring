@@ -1,0 +1,29 @@
+
+.full-body {
+     display: flex;
+    flex-wrap: wrap;
+}
+.display-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidebar{
+    width: 72px;
+}
+.main-content{
+    background-color: #F9F5F3;
+    width: calc(100% - 72px);
+    height: 100vh;
+    overflow: hidden;
+}
+.inner-body{
+    height: calc(100% - 61px);
+    width: 100%;
+}
+.graph-list{
+    width: 78%;
+}
+
+.chart{
+    width: 22%;
+}
